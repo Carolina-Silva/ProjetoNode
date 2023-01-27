@@ -22,11 +22,6 @@ router.get('/grade',(req, res) => {
 
 router.get('/historico',(req, res) => {
   let objhistorico = { 
-    sigla: req.query.sigla,
-    nome: req.query.nome,
-    semestre: req.query.semestre,
-    situacao: req.query.situacao,
-
     historico:[
     {sigla:'IAL010',nome:'Algoritmo e Lógica de Programação',semestre: '1', situacao: 'Aprovado'},
     {sigla:'IBD014',nome:'Modelagem de Banco de Dados',semestre: '1', situacao: 'Aprovado'},
