@@ -1,0 +1,15 @@
+<body style="font-family:arial">
+
+<h2 style="color:#20b2aa;">Grade horária</h2>
+  <p>Grade de matérias para o primeiro semestre de 2023:</p>
+
+  <ul style="list-style-type:square;">
+    {{#grade}}
+    <listyle="font-size:16px">Sigla: {{sigla}} | Nome: {{nome}} | Aulas por semana: {{aulasemana}}</li>
+    {{/grade}}
+  </ul>
+  
+</body>
+{{>footer}}
+
+ 

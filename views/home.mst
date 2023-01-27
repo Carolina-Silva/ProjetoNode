@@ -1,0 +1,7 @@
+<body style="font-family:arial;text-align:center">
+  <h1 style="color:#20b2aa> Meu projeto NODE </h1>
+  <p>Projeto criado para aula de Desenvolvimento Web II.</p>
+  <p>Desenvolvido em Node.JS com os frameworks Express e Mustache</p>
+</body>
+  
+  

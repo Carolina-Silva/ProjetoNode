@@ -1,0 +1,29 @@
+<body style="font-family:arial">
+<h2 style="color:#20b2aa;">Histórico</h2>
+  <p>Histórico de matérias já cursadas nos primeiros 3 semestres:</p>
+
+  <ul style="list-style-type:square;">
+    {{#grade}}
+    <li>Sigla: {{sigla}} | Nome: {{nome}} | Aulas por semana: {{aulasemana}}</li>
+    {{/grade}}
+  </ul>
+
+
+  <table style="border:0; width:80%; margin:0 auto;"> 
+    <tr style="background-color:#191970; padding:4px;color:#fff">
+     <th>Sigla</th>
+     <th>Nome</th>
+     <th>Semestre</th>
+     <th>Situação</th>
+    </tr>
+    {{#historico:}}
+    <tr style="background-color:#BEBEBE"> 
+      <td>{{sigla}}</td>
+      <td>{{nome}}</td>
+      <td>{{semestre}}</td>
+      <td>{{situacao}}</td>
+    </tr>
+    {{/historico:}}
+  </table>
+</body>
+{{>footer}}
